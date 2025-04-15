@@ -1,0 +1,16 @@
+D:\Hasbrewery\Application\bin\Debug\net8.0\Application.deps.json
+D:\Hasbrewery\Application\bin\Debug\net8.0\Application.dll
+D:\Hasbrewery\Application\bin\Debug\net8.0\Application.pdb
+D:\Hasbrewery\Application\bin\Debug\net8.0\Domain.dll
+D:\Hasbrewery\Application\bin\Debug\net8.0\Domain.pdb
+D:\Hasbrewery\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+D:\Hasbrewery\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hasbrewery\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+D:\Hasbrewery\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+D:\Hasbrewery\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\Hasbrewery\Application\obj\Debug\net8.0\Application.sourcelink.json
+D:\Hasbrewery\Application\obj\Debug\net8.0\Application.csproj.CopyComplete
+D:\Hasbrewery\Application\obj\Debug\net8.0\Application.dll
+D:\Hasbrewery\Application\obj\Debug\net8.0\refint\Application.dll
+D:\Hasbrewery\Application\obj\Debug\net8.0\Application.pdb
+D:\Hasbrewery\Application\obj\Debug\net8.0\ref\Application.dll
