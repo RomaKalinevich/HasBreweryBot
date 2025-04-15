@@ -1,3 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using TelegramBot.Services;
 
-Console.WriteLine("Hello, World!");
+var builder = Host.CreateDefaultBuilder(args)
+    .ConfigureAppConfiguration(config =>
+    {
+        config.AddJsonFile("appsettings.json", optional: false);
+    })
+    .ConfigureServices((context, services) =>
+    {
+        services.AddHostedService<TelegramBotService>();
+    });
+
+await builder.RunConsoleAsync();
