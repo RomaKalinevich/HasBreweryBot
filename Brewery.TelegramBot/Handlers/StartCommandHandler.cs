@@ -28,7 +28,8 @@ public class StartCommandHandler
                 TelegramId = message.From.Id.ToString(),
                 FullName = message.From.FirstName,
                 Role = Role.Unknown,
-                IsActive = false
+                IsActive = false,
+                CreatedAt = DateTime.Now.ToUniversalTime(),
             };
 
             _dbContext.Users.Add(user);
@@ -43,7 +44,7 @@ public class StartCommandHandler
         {
             await _botClient.SendTextMessageAsync(
                 chatId: message.Chat.Id,
-                text: $"С возвращением, {user.FullName}!",
+                text: $"С возвращением, {user.FullName}! Твоя роль {user.Role.ToString()}",
                 cancellationToken: ct);
         }
     }

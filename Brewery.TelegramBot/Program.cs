@@ -18,7 +18,7 @@ var builder = Host.CreateDefaultBuilder(args)
 		services.AddSingleton<ITelegramBotClient>(provider =>
 		{
 			var configuration = provider.GetRequiredService<IConfiguration>();
-			var token = configuration["Brewery.TelegramBot:Token"];
+			var token = configuration["TelegramBot:Token"];
 			return new TelegramBotClient(token);
 		});
 
