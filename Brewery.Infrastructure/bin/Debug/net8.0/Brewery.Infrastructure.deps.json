@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Brewery.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Brewery.Application": "1.0.0",
+          "Brewery.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Brewery.Infrastructure.dll": {}
+        }
+      },
+      "Brewery.Application/1.0.0": {
+        "dependencies": {
+          "Brewery.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Brewery.Application.dll": {}
+        }
+      },
+      "Brewery.Domain/1.0.0": {
+        "runtime": {
+          "Brewery.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Brewery.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Brewery.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Brewery.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

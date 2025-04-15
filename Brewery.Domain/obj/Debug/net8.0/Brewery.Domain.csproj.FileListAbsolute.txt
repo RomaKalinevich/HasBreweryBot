@@ -1,0 +1,12 @@
+D:\Hasbrewery\Brewery.Domain\bin\Debug\net8.0\Brewery.Domain.deps.json
+D:\Hasbrewery\Brewery.Domain\bin\Debug\net8.0\Brewery.Domain.dll
+D:\Hasbrewery\Brewery.Domain\bin\Debug\net8.0\Brewery.Domain.pdb
+D:\Hasbrewery\Brewery.Domain\obj\Debug\net8.0\Brewery.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hasbrewery\Brewery.Domain\obj\Debug\net8.0\Brewery.Domain.AssemblyInfoInputs.cache
+D:\Hasbrewery\Brewery.Domain\obj\Debug\net8.0\Brewery.Domain.AssemblyInfo.cs
+D:\Hasbrewery\Brewery.Domain\obj\Debug\net8.0\Brewery.Domain.csproj.CoreCompileInputs.cache
+D:\Hasbrewery\Brewery.Domain\obj\Debug\net8.0\Brewery.Domain.sourcelink.json
+D:\Hasbrewery\Brewery.Domain\obj\Debug\net8.0\Brewery.Domain.dll
+D:\Hasbrewery\Brewery.Domain\obj\Debug\net8.0\refint\Brewery.Domain.dll
+D:\Hasbrewery\Brewery.Domain\obj\Debug\net8.0\Brewery.Domain.pdb
+D:\Hasbrewery\Brewery.Domain\obj\Debug\net8.0\ref\Brewery.Domain.dll

@@ -1,0 +1,16 @@
+D:\Hasbrewery\Brewery.Application\bin\Debug\net8.0\Brewery.Application.deps.json
+D:\Hasbrewery\Brewery.Application\bin\Debug\net8.0\Brewery.Application.dll
+D:\Hasbrewery\Brewery.Application\bin\Debug\net8.0\Brewery.Application.pdb
+D:\Hasbrewery\Brewery.Application\bin\Debug\net8.0\Brewery.Domain.dll
+D:\Hasbrewery\Brewery.Application\bin\Debug\net8.0\Brewery.Domain.pdb
+D:\Hasbrewery\Brewery.Application\obj\Debug\net8.0\Brewery.Application.csproj.AssemblyReference.cache
+D:\Hasbrewery\Brewery.Application\obj\Debug\net8.0\Brewery.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hasbrewery\Brewery.Application\obj\Debug\net8.0\Brewery.Application.AssemblyInfoInputs.cache
+D:\Hasbrewery\Brewery.Application\obj\Debug\net8.0\Brewery.Application.AssemblyInfo.cs
+D:\Hasbrewery\Brewery.Application\obj\Debug\net8.0\Brewery.Application.csproj.CoreCompileInputs.cache
+D:\Hasbrewery\Brewery.Application\obj\Debug\net8.0\Brewery.Application.sourcelink.json
+D:\Hasbrewery\Brewery.Application\obj\Debug\net8.0\Brewery.Application.csproj.CopyComplete
+D:\Hasbrewery\Brewery.Application\obj\Debug\net8.0\Brewery.Application.dll
+D:\Hasbrewery\Brewery.Application\obj\Debug\net8.0\refint\Brewery.Application.dll
+D:\Hasbrewery\Brewery.Application\obj\Debug\net8.0\Brewery.Application.pdb
+D:\Hasbrewery\Brewery.Application\obj\Debug\net8.0\ref\Brewery.Application.dll
