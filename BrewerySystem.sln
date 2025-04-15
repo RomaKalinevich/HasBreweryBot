@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brewery.TelegramBot", "Brew
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brewery.API", "Brewery.API\Brewery.API.csproj", "{79259A4E-5216-456E-B659-38A2BC58A3E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brewery.WebApp", "Brewery.WebApp\Brewery.WebApp.csproj", "{F431FB36-DB9C-4010-AC5C-D478181630E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{79259A4E-5216-456E-B659-38A2BC58A3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79259A4E-5216-456E-B659-38A2BC58A3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79259A4E-5216-456E-B659-38A2BC58A3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F431FB36-DB9C-4010-AC5C-D478181630E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F431FB36-DB9C-4010-AC5C-D478181630E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F431FB36-DB9C-4010-AC5C-D478181630E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F431FB36-DB9C-4010-AC5C-D478181630E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
