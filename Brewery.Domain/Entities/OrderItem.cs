@@ -9,8 +9,6 @@ public class OrderItem
 	public int VolumeLiters { get; set; } // Например, 30
 
 	public int KegCount { get; set; } // Например, 5
-
 	public Guid OrderId { get; set; }
-
 	public Order Order { get; set; } = null!;
 }

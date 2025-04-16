@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Создание заявки</title>
+  <meta charset="utf-8">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <h2>Новая заявка</h2>
+  <form id="orderForm">
+    <label>Организация: <input type="text" name="organization" required /></label><br>
+    <label>Ассортимент: <textarea name="items" placeholder="Жигулёвское 30л 5 кег..." required></textarea></label><br>
+    <button type="submit">Отправить</button>
+  </form>
+
+  <script>
+    const tg = window.Telegram.WebApp;
+    tg.expand();
+
+    const form = document.getElementById('orderForm');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const data = {
+        organization: form.organization.value,
+        items: form.items.value,
+      };
+
+      await fetch('/api/orders', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+
+      tg.close();
+    });
+  </script>
+</body>
+</html>

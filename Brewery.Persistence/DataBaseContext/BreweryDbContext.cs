@@ -5,10 +5,11 @@ namespace Persistence.DataBaseContext;
 
 public class BreweryDbContext(DbContextOptions<BreweryDbContext> options) : DbContext(options)
 {
-	// Добавляем таблицу пользователей
 	public DbSet<User> Users { get; set; }
 	public DbSet<Order> Orders { get; set; } = null!;
 	public DbSet<OrderItem> OrderItems { get; set; } = null!;
+	public DbSet<Organization> Organizations { get; set; } = null!;
+	public DbSet<ProductItem> ProductItems { get; set; }
 
 	protected override void OnModelCreating(ModelBuilder modelBuilder)
 	{
@@ -38,11 +39,12 @@ public class BreweryDbContext(DbContextOptions<BreweryDbContext> options) : DbCo
 			entity.Property(u => u.CreatedAt)
 				.IsRequired();
 		});
-		
+
 		modelBuilder.Entity<Order>()
-        .HasMany(o => o.Items)
-        .WithOne(i => i.Order)
-        .HasForeignKey(i => i.OrderId)
-        .OnDelete(DeleteBehavior.Cascade);
+			.HasMany(o => o.Items)
+			.WithOne(i => i.Order)
+			.HasForeignKey(i => i.OrderId)
+			.OnDelete(DeleteBehavior.Cascade);
+		
 	}
 }
