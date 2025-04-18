@@ -16,6 +16,7 @@
     <ItemGroup>
       <ProjectReference Include="..\Brewery.Application\Brewery.Application.csproj" />
       <ProjectReference Include="..\Brewery.Infrastructure\Brewery.Infrastructure.csproj" />
+      <ProjectReference Include="..\Brewery.Persistence\Brewery.Persistence.csproj" />
     </ItemGroup>
 
 </Project>

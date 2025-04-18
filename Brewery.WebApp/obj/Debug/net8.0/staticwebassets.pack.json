@@ -5,6 +5,98 @@
       "PackagePath": "staticwebassets\\Brewery.WebApp.bundle.scp.css"
     },
     {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\.gitignore",
+      "PackagePath": "staticwebassets\\admin-panel\\.gitignore"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\README.md",
+      "PackagePath": "staticwebassets\\admin-panel\\README.md"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\eslint.config.js",
+      "PackagePath": "staticwebassets\\admin-panel\\eslint.config.js"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\index.html",
+      "PackagePath": "staticwebassets\\admin-panel\\index.html"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\package-lock.json",
+      "PackagePath": "staticwebassets\\admin-panel\\package-lock.json"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\package.json",
+      "PackagePath": "staticwebassets\\admin-panel\\package.json"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\public\\vite.svg",
+      "PackagePath": "staticwebassets\\admin-panel\\public\\vite.svg"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\src\\App.css",
+      "PackagePath": "staticwebassets\\admin-panel\\src\\App.css"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\src\\App.tsx",
+      "PackagePath": "staticwebassets\\admin-panel\\src\\App.tsx"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\src\\assets\\react.svg",
+      "PackagePath": "staticwebassets\\admin-panel\\src\\assets\\react.svg"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\src\\components\\AddOrganizationForm.tsx",
+      "PackagePath": "staticwebassets\\admin-panel\\src\\components\\AddOrganizationForm.tsx"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\src\\components\\OrganizationManager.tsx",
+      "PackagePath": "staticwebassets\\admin-panel\\src\\components\\OrganizationManager.tsx"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\src\\index.css",
+      "PackagePath": "staticwebassets\\admin-panel\\src\\index.css"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\src\\main.tsx",
+      "PackagePath": "staticwebassets\\admin-panel\\src\\main.tsx"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\src\\pages\\OrganizationsPage.tsx",
+      "PackagePath": "staticwebassets\\admin-panel\\src\\pages\\OrganizationsPage.tsx"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\src\\stores\\OrganizationStore.ts",
+      "PackagePath": "staticwebassets\\admin-panel\\src\\stores\\OrganizationStore.ts"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\src\\styles\\index.css",
+      "PackagePath": "staticwebassets\\admin-panel\\src\\styles\\index.css"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\src\\types\\index.ts",
+      "PackagePath": "staticwebassets\\admin-panel\\src\\types\\index.ts"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\src\\vite-env.d.ts",
+      "PackagePath": "staticwebassets\\admin-panel\\src\\vite-env.d.ts"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\tsconfig.app.json",
+      "PackagePath": "staticwebassets\\admin-panel\\tsconfig.app.json"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\tsconfig.json",
+      "PackagePath": "staticwebassets\\admin-panel\\tsconfig.json"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\tsconfig.node.json",
+      "PackagePath": "staticwebassets\\admin-panel\\tsconfig.node.json"
+    },
+    {
+      "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\admin-panel\\vite.config.ts",
+      "PackagePath": "staticwebassets\\admin-panel\\vite.config.ts"
+    },
+    {
       "Id": "D:\\Hasbrewery\\Brewery.WebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

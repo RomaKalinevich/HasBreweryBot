@@ -14,4 +14,9 @@
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Admin\Organizations.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Applications\Create.cshtml" />
+    </ItemGroup>
+
 </Project>

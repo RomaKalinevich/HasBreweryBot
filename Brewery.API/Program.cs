@@ -1,13 +1,37 @@
+using Microsoft.EntityFrameworkCore;
+using Persistence.DataBaseContext;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.AddDbContext<BreweryDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// CORS
+builder.Services.AddCors(options =>
+{
+	options.AddPolicy("AllowWebApp", policy =>
+	{
+		policy.WithOrigins(
+				"https://make-constructed-drops-breeds.trycloudflare.com",
+				"http://localhost:5173"
+			)
+			.AllowAnyMethod()
+			.AllowAnyHeader();
+	});
+});
+
+// Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Контроллеры (если используешь API controllers)
+builder.Services.AddControllers();
+
+// Создание приложения
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Middleware
 if (app.Environment.IsDevelopment())
 {
 	app.UseSwagger();
@@ -16,29 +40,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-	"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+app.UseCors("AllowWebApp");
 
-app.MapGet("/weatherforecast", () =>
-	{
-		var forecast = Enumerable.Range(1, 5).Select(index =>
-				new WeatherForecast
-				(
-					DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-					Random.Shared.Next(-20, 55),
-					summaries[Random.Shared.Next(summaries.Length)]
-				))
-			.ToArray();
-		return forecast;
-	})
-	.WithName("GetWeatherForecast")
-	.WithOpenApi();
+app.UseAuthorization();
+
+// Маршрутизация контроллеров
+app.MapControllers();
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-	public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

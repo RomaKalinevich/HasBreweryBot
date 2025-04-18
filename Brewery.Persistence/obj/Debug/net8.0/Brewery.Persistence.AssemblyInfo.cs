@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Brewery.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56bd0ded041b20643c544e8ca98a8f9381ec9446")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0da741b53dc15dc60539376fa2b5a0fab399e143")]
 [assembly: System.Reflection.AssemblyProductAttribute("Brewery.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Brewery.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

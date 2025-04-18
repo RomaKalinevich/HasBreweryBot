@@ -6,9 +6,9 @@ public class OrderItem
 
 	public string BeerName { get; set; } = string.Empty;
 
-	public int VolumeLiters { get; set; } // Например, 30
+	public int VolumeLiters { get; set; }
 
-	public int KegCount { get; set; } // Например, 5
+	public int KegCount { get; set; }
 	public Guid OrderId { get; set; }
 	public Order Order { get; set; } = null!;
 }

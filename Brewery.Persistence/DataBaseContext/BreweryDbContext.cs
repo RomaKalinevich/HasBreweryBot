@@ -10,6 +10,7 @@ public class BreweryDbContext(DbContextOptions<BreweryDbContext> options) : DbCo
 	public DbSet<OrderItem> OrderItems { get; set; } = null!;
 	public DbSet<Organization> Organizations { get; set; } = null!;
 	public DbSet<ProductItem> ProductItems { get; set; }
+	public DbSet<Store> Stores { get; set; }
 
 	protected override void OnModelCreating(ModelBuilder modelBuilder)
 	{
@@ -46,5 +47,9 @@ public class BreweryDbContext(DbContextOptions<BreweryDbContext> options) : DbCo
 			.HasForeignKey(i => i.OrderId)
 			.OnDelete(DeleteBehavior.Cascade);
 		
+		modelBuilder.Entity<Organization>()
+			.HasMany(o => o.Addresses)
+			.WithOne(a => a.Organization)
+			.HasForeignKey(a => a.OrganizationId);
 	}
 }
